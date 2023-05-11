@@ -10,7 +10,8 @@ function App() {
     let newPeople = people.filter((person) => person.id !== id)
     console.log(newPeople)
     setPeople(newPeople)
-  } 
+  }
+   
   let render = people.map((person) =>{
     const {id, name, age, image} = person
     return (
