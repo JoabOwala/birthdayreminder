@@ -2,7 +2,12 @@ import React from 'react-dom'
 
 function App() {
   return (
-    <h2>hello there</h2>
+    <main className='main'>
+      <section className='container'>
+        <h3>hello there
+        </h3>
+      </section>
+    </main>
   )
 
 }
