@@ -174,7 +174,7 @@ main {
 .person p {
   margin-bottom: 0;
 }
-.container button {
+.btn {
   color: var(--clr-white);
   display: block;
   width: 100%;
@@ -187,5 +187,16 @@ main {
   letter-spacing: var(--spacing);
   border-radius: var(--radius);
   outline: 1px solid #05BFDB;
+  cursor: pointer;
+}
+
+.deleteBtn{
+  color: var(--clr-white);
+  border-color: transparent;
+  background: #f12020;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  border-radius: var(--radius);
+  outline: 1px solid #f12020;
   cursor: pointer;
 }
