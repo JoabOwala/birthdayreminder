@@ -11,7 +11,7 @@ function App() {
     console.log(newPeople)
     setPeople(newPeople)
   }
-   
+
   let render = people.map((person) =>{
     const {id, name, age, image} = person
     return (
@@ -22,20 +22,16 @@ function App() {
       <p>{age}</p>
       <button onClick={() => removeItem(id)} className='deleteBtn'>Remove</button>
       </div>
-      </article>
-    
+      </article> 
     )
   })
-
-
   return (
     <main className='main'>
       <section className='container'>
         <h3>{people.length} Birthdays Today
         </h3>
         <div>
-        {render}
-        
+        {render}  
         </div>
         <button className='btn' onClick={() => setPeople([])}>Clear All</button>
       </section>
